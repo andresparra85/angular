@@ -23,6 +23,7 @@ export class SearchComponent implements OnInit {
     console.log("si da");
     if(str!==''){
       this.router.navigate(['/oculto',str]);
+      
     }
     
   }
